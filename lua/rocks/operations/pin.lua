@@ -1,6 +1,6 @@
 ---@mod rocks.operations.pin
 --
--- Copyright (C) 2024 Neorocks Org.
+-- Copyright (C) 2024 Lumen Labs Org.
 --
 -- License:    GPLv3
 -- Created:    06 Jul 2024

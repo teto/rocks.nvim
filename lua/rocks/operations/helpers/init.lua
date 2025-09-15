@@ -1,6 +1,6 @@
 ---@mod rocks.operations.helpers
 --
--- Copyright (C) 2024 Neorocks Org.
+-- Copyright (C) 2024 Lumen Labs.
 --
 -- License:    GPLv3
 -- Created:    07 Mar 2024

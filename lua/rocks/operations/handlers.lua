@@ -1,6 +1,6 @@
 ---@mod rocks.operations.helpers
 --
--- Copyright (C) 2023 Neorocks Org.
+-- Copyright (C) 2023 Lumen Labs Org.
 --
 -- Version:    0.1.0
 -- License:    GPLv3
