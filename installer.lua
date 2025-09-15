@@ -432,7 +432,7 @@ local function install()
                 "rocks.nvim",
             }
             if supported_arch then
-                table.insert(install_cmd, 4, "--server='https://nvim-neorocks.github.io/rocks-binaries/'")
+                table.insert(install_cmd, 4, "--server='https://lumen-oss.github.io/rocks-binaries/'")
             end
             vim.notify("Installing rocks.nvim...")
             local sc = exec(install_cmd)

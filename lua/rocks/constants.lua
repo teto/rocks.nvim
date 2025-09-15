@@ -6,7 +6,7 @@
 -- License:    GPLv3
 -- Created:    05 Jul 2023
 -- Updated:    09 Dec 2023
--- Homepage:   https://github.com/nvim-neorocks/rocks.nvim
+-- Homepage:   https://github.com/lumen-oss/rocks.nvim
 -- Maintainers: NTBBloodbath <bloodbathalchemist@protonmail.com>, Vhyrro <vhyrro@gmail.com>, mrcjkb <marc@jakobi.dev>
 --
 ---@brief [[
@@ -59,11 +59,11 @@ constants.ROCKS_NVIM = "rocks.nvim"
 ---@type server_url[]
 constants.DEFAULT_ROCKS_SERVERS = {
     "https://luarocks.org/manifests/neorocks/",
-    "https://nvim-neorocks.github.io/rocks-binaries/",
+    "https://lumen-oss.github.io/rocks-binaries/",
 }
 
 ---@type only_server_url
-constants.ROCKS_BINARIES_DEV = "https://nvim-neorocks.github.io/rocks-binaries-dev/"
+constants.ROCKS_BINARIES_DEV = "https://lumen-oss.github.io/rocks-binaries-dev/"
 
 ---@type server_url[]
 constants.DEFAULT_DEV_SERVERS = {
@@ -75,7 +75,7 @@ package = "%s"
 version = "%s-1"
 
 source = {
-    url = 'https://github.com/nvim-neorocks/luarocks-stub/archive/548853648d7cff7e0d959ff95209e8aa97a793bc.zip',
+    url = 'https://github.com/lumen-oss/luarocks-stub/archive/548853648d7cff7e0d959ff95209e8aa97a793bc.zip',
     dir = 'luarocks-stub-548853648d7cff7e0d959ff95209e8aa97a793bc',
 }
 

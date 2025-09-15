@@ -11,7 +11,7 @@
 -- License:    GPLv3
 -- Created:    02 Apr 2024
 -- Updated:    02 Apr 2024
--- Homepage:   https://github.com/nvim-neorocks/rocks.nvim
+-- Homepage:   https://github.com/lumen-oss/rocks.nvim
 -- Maintainers: NTBBloodbath <bloodbathalchemist@protonmail.com>, Vhyrro <vhyrro@gmail.com>, mrcjkb <marc@jakobi.dev>
 
 -- NOTE(mrcjkb): This shares some logic with the arg parser in rocks-git.nvim,

@@ -12,7 +12,7 @@
 -- License:    GPLv3
 -- Created:    13 Mar 2024
 -- Updated:    19 Apr 2024
--- Homepage:   https://github.com/nvim-neorocks/rocks.nvim
+-- Homepage:   https://github.com/lumen-oss/rocks.nvim
 -- Maintainers: NTBBloodbath <bloodbathalchemist@protonmail.com>, Vhyrro <vhyrro@gmail.com>, mrcjkb <marc@jakobi.dev>
 
 -- NOTE: On Windows, we must create junctions, because NTFS symlinks require admin privileges.

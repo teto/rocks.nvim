@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 <br />
 <div align="center">
-  <a href="https://github.com/nvim-neorocks/rocks.nvim">
+  <a href="https://github.com/lumen-oss/rocks.nvim">
     <img src="./rocks-header.svg" alt="rocks.nvim">
   </a>
   <p align="center">
@@ -9,11 +9,11 @@
     <a href="./doc/rocks.txt"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/nvim-neorocks/rocks.nvim/issues/new?assignees=&labels=bug">Report Bug</a>
+    <a href="https://github.com/lumen-oss/rocks.nvim/issues/new?assignees=&labels=bug">Report Bug</a>
     ·
-    <a href="https://github.com/nvim-neorocks/rocks.nvim/issues/new?assignees=&labels=enhancement">Request Feature</a>
+    <a href="https://github.com/lumen-oss/rocks.nvim/issues/new?assignees=&labels=enhancement">Request Feature</a>
     ·
-    <a href="https://github.com/nvim-neorocks/rocks.nvim/discussions/new?category=q-a">Ask Question</a>
+    <a href="https://github.com/lumen-oss/rocks.nvim/discussions/new?category=q-a">Ask Question</a>
   </p>
   <p>
     <strong>
@@ -26,7 +26,7 @@
 
 > [!WARNING]
 >
-> rocks.nvim will be [undergoing a major rewrite](https://github.com/nvim-neorocks/rocks.nvim/issues/539)
+> rocks.nvim will be [undergoing a major rewrite](https://github.com/lumen-oss/rocks.nvim/issues/539)
 > soon. If you're considering switching from another plugin manager
 > and you'd like to avoid churn,
 > we recommend you wait for rocks.nvim v3.0.0.
@@ -42,20 +42,20 @@
 - Minimal, non-intrusive UI.
 - Async execution.
 - Extensible, with a Lua API.
-  - [`rocks-git.nvim`](https://github.com/nvim-neorocks/rocks-git.nvim)
+  - [`rocks-git.nvim`](https://github.com/lumen-oss/rocks-git.nvim)
     for installing from git repositories.
-  - [`rocks-config.nvim`](https://github.com/nvim-neorocks/rocks-config.nvim)
+  - [`rocks-config.nvim`](https://github.com/lumen-oss/rocks-config.nvim)
     for plugin configuration.
-  - [`rocks-lazy.nvim`](https://github.com/nvim-neorocks/rocks-lazy.nvim)
+  - [`rocks-lazy.nvim`](https://github.com/lumen-oss/rocks-lazy.nvim)
     for lazy-loading.
-  - [`rocks-treesitter.nvim`](https://github.com/nvim-neorocks/rocks-treesitter.nvim)
+  - [`rocks-treesitter.nvim`](https://github.com/lumen-oss/rocks-treesitter.nvim)
     for automatic tree-sitter parser management.
   - And [more...](https://github.com/topics/rocks-nvim)
 - Command completions for plugins and versions on luarocks.org.
-- Binary rocks pulled from [rocks-binaries](https://nvim-neorocks.github.io/rocks-binaries/)
+- Binary rocks pulled from [rocks-binaries](https://lumen-oss/rocks-binaries/)
   so you don't have to compile them.
 
-![demo](https://github.com/nvim-neorocks/rocks.nvim/assets/12857160/ce678546-76a7-4fdc-b822-e43d51652681)
+![demo](https://github.com/lumen-oss/rocks.nvim/assets/12857160/ce678546-76a7-4fdc-b822-e43d51652681)
 
 ## :moon: Introduction
 
@@ -86,7 +86,7 @@ This comes with several pain points:
 
 Other more modern approaches rely on plugin authors
 providing this information in their source repositories.
-We have a detailed article explaining why we chose a different approach [here](https://github.com/nvim-neorocks/rocks.nvim/wiki/What-about-packspec-(pkg.json)%3F).
+We have a detailed article explaining why we chose a different approach [here](https://github.com/lumen-oss/rocks.nvim/wiki/What-about-packspec-(pkg.json)%3F).
 
 With rocks.nvim, installing a plugin is as simple as entering the command:
 
@@ -103,12 +103,12 @@ Do one thing well.
 
 It doesn't dictate how you as a user should configure your plugins.
 But there's an optional module for those seeking
-additional configuration capabilities: [`rocks-config.nvim`](https://github.com/nvim-neorocks/rocks-config.nvim).
+additional configuration capabilities: [`rocks-config.nvim`](https://github.com/lumen-oss/rocks-config.nvim).
 
 We have packaged [many Neovim plugins and tree-sitter parsers](https://luarocks.org/modules/neorocks)
 for luarocks, and an increasing number of plugin authors
 [have been publishing themselves](https://luarocks.org/labels/neovim?non_root=on).
-Additionally, [`rocks-git.nvim`](https://github.com/nvim-neorocks/rocks-git.nvim)
+Additionally, [`rocks-git.nvim`](https://github.com/lumen-oss/rocks-git.nvim)
 ensures you're covered even when a plugin isn't directly available on LuaRocks.
 
 ### :deciduous_tree: Enhanced tree-sitter support
@@ -121,14 +121,14 @@ ensures you're covered even when a plugin isn't directly available on LuaRocks.
 
 We're revolutionizing the way Neovim users and plugin developers
 interact with tree-sitter parsers.
-With the introduction of the [Neovim User Rocks Repository (NURR)](https://github.com/nvim-neorocks/nurr),
+With the introduction of the [Neovim User Rocks Repository (NURR)](https://github.com/lumen-oss/nurr),
 we have automated the packaging and publishing of many plugins and curated[^2] tree-sitter parsers
 for luarocks, ensuring a seamless and efficient user experience.
 
 [^2]: We only upload parsers which we can install in the NURR CI
       (tested on Linux).
 
-When installing, rocks.nvim will also search our [rocks-binaries (dev)](https://nvim-neorocks.github.io/rocks-binaries-dev/)
+When installing, rocks.nvim will also search our [rocks-binaries (dev)](https://lumen-oss/rocks-binaries-dev/)
 server, which means you don't even need to compile any parsers
 on your machine.
 
@@ -142,7 +142,7 @@ all you need to do is run `vim.treesitter.start()` to enable syntax highlighting
 
 [^3]: You can put this in a `ftplugin/<filetype>.lua`, for example.
 
-Or, you can use our [`rocks-treesitter.nvim`](https://github.com/nvim-neorocks/rocks-treesitter.nvim)
+Or, you can use our [`rocks-treesitter.nvim`](https://github.com/lumen-oss/rocks-treesitter.nvim)
 module, which can automatically install parsers and enable syntax highlighting for you.
 
 > [!TIP]
@@ -151,7 +151,7 @@ module, which can automatically install parsers and enable syntax highlighting f
 
 <!-- Or, if you want something that comes with lots of tree-sitter parsers and -->
 <!-- automatically configures nvim-treesitter for you, -->
-<!-- check out our [`rocks-treesiter.nvim` module](https://github.com/nvim-neorocks/rocks-treesitter.nvim). -->
+<!-- check out our [`rocks-treesiter.nvim` module](https://github.com/lumen-oss/rocks-treesitter.nvim). -->
 
 #### Simplifying dependencies
 
@@ -203,7 +203,7 @@ We suggest starting nvim without loading RC files, such that already installed p
 with the installer:
 
 ```sh
-nvim -u NORC -c "source https://raw.githubusercontent.com/nvim-neorocks/rocks.nvim/master/installer.lua"
+nvim -u NORC -c "source https://raw.githubusercontent.com/lumen-oss/rocks.nvim/master/installer.lua"
 ```
 
 > [!IMPORTANT]
@@ -264,7 +264,7 @@ if not pcall(require, "rocks") then
 
     if not vim.uv.fs_stat(rocks_location) then
         -- Pull down rocks.nvim
-        local url = "https://github.com/nvim-neorocks/rocks.nvim"
+        local url = "https://github.com/lumen-oss/rocks.nvim"
         vim.fn.system({ "git", "clone", "--filter=blob:none", url, rocks_location })
         -- Make sure the clone was successfull
         assert(vim.v.shell_error == 0, "rocks.nvim installation failed. Try exiting and re-entering Neovim!")
@@ -289,7 +289,7 @@ Upon running `nvim` the bootstrapping script should engage!
 
 ### :hammer: Manual installation
 
-For manual installation, see [this tutorial](https://github.com/nvim-neorocks/rocks.nvim/wiki/Installing-rocks.nvim-manually,-without-the-installation-script).
+For manual installation, see [this tutorial](https://github.com/lumen-oss/rocks.nvim/wiki/Installing-rocks.nvim-manually,-without-the-installation-script).
 
 ## :books: Usage
 
@@ -365,7 +365,7 @@ Make sure to run `:Rocks sync` when you are done.
 > [!TIP]
 >
 > If you want more advanced lazy-loading capabilities,
-> try out the [`rocks-lazy.nvim`](https://github.com/nvim-neorocks/rocks-lazy.nvim) module.
+> try out the [`rocks-lazy.nvim`](https://github.com/lumen-oss/rocks-lazy.nvim) module.
 
 By default, `rocks.nvim` will source all plugins at startup.
 To prevent it from sourcing a plugin, you can specify `opt = true`
@@ -417,7 +417,7 @@ You can then load the plugin with Neovim's built-in `:packadd {rock}` command[^1
 > #### Should I lazy load plugins?
 >
 > Making sure a plugin doesn't unnecessarily impact startup time
-> [should be the responsibility of plugin authors, not users](https://github.com/nvim-neorocks/nvim-best-practices?tab=readme-ov-file#sleeping_bed-lazy-loading).
+> [should be the responsibility of plugin authors, not users](https://github.com/lumen-oss/nvim-best-practices?tab=readme-ov-file#sleeping_bed-lazy-loading).
 > As is the case with dependencies, a plugin's functionality may evolve over
 > time, potentially leading to breakage if it's the user who has
 > to worry about lazy loading.
@@ -489,15 +489,15 @@ See [`:h rocks-api`](./doc/rocks.txt) for details.
 
 Following are some examples:
 
-- [`rocks-git.nvim`](https://github.com/nvim-neorocks/rocks-git.nvim):
+- [`rocks-git.nvim`](https://github.com/lumen-oss/rocks-git.nvim):
   Adds the ability to install plugins from git.
-- [`rocks-config.nvim`](https://github.com/nvim-neorocks/rocks-config.nvim):
+- [`rocks-config.nvim`](https://github.com/lumen-oss/rocks-config.nvim):
   Adds an API for safely loading plugin configurations.
-- [`rocks-lazy.nvim`](https://github.com/nvim-neorocks/rocks-lazy.nvim):
+- [`rocks-lazy.nvim`](https://github.com/lumen-oss/rocks-lazy.nvim):
   Adds lazy-loading abstractions and integrates with rocks-config.nvim.
-- [`rocks-dev.nvim`](https://github.com/nvim-neorocks/rocks-dev.nvim):
+- [`rocks-dev.nvim`](https://github.com/lumen-oss/rocks-dev.nvim):
   Adds an API for developing and testing luarocks plugins locally.
-- [`rocks-treesitter.nvim`](https://github.com/nvim-neorocks/rocks-treesitter.nvim)
+- [`rocks-treesitter.nvim`](https://github.com/lumen-oss/rocks-treesitter.nvim)
   Automatic highlighting and installation of tree-sitter parsers.
 - And [more...](https://github.com/topics/rocks-nvim)
 
@@ -512,9 +512,9 @@ which contains the `luarocks` stderr output, among other logs.
 
 ## :link: projects related to neovim and luarocks
 
-- [luarocks-tag-release](https://github.com/nvim-neorocks/luarocks-tag-release):
+- [luarocks-tag-release](https://github.com/lumen-oss/luarocks-tag-release):
   A GitHub action that automates publishing to luarocks.org
-- [NURR](https://github.com/nvim-neorocks/nurr):
+- [NURR](https://github.com/lumen-oss/nurr):
   A repository that publishes Neovim plugins and tree-sitter parsers
   to luarocks.org
 - [luarocks.nvim](https://github.com/vhyrro/luarocks.nvim):

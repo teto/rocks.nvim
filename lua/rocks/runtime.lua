@@ -11,7 +11,7 @@
 -- License:    GPLv3
 -- Created:    25 Dec 2023
 -- Updated:    25 Apr 2024
--- Homepage:   https://github.com/nvim-neorocks/rocks.nvim
+-- Homepage:   https://github.com/lumen-oss/rocks.nvim
 -- Maintainers: NTBBloodbath <bloodbathalchemist@protonmail.com>, Vhyrro <vhyrro@gmail.com>, mrcjkb <marc@jakobi.dev>
 
 local runtime = {}

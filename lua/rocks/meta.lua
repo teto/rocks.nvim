@@ -3,7 +3,7 @@
 -- License:    GPLv3
 -- Created:    03 Aug 2024
 -- Updated:    03 Aug 2024
--- Homepage:   https://github.com/nvim-neorocks/rocks.nvim
+-- Homepage:   https://github.com/lumen-oss/rocks.nvim
 -- Maintainers: NTBBloodbath <bloodbathalchemist@protonmail.com>, Vhyrro <vhyrro@gmail.com>, mrcjkb <marc@jakobi.dev>
 
 ---@mod rocks.user-event rocks.nvim |User| |event|s
